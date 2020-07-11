@@ -1,7 +1,4 @@
 class Leap {
-  bool leapYear(int year) {
-    bool isLeapYears =
-        year % 4 == 0 && year % 100 != 0 || year % 400 == 0 ? true : false;
-    return isLeapYears;
-  }
+  bool leapYear(int year) =>
+      year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 }
